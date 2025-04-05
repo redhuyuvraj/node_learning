@@ -1,0 +1,9 @@
+
+const wrapperExpoler = require ("./wrapperExpoler");
+
+console.log("this is the wrapper demo");
+
+console.log("_filename in wrapper demo" , __filename);
+console.log("_dirname in wrapper demo", __dirname);
+
+wrapperExpoler.greet("ram");
